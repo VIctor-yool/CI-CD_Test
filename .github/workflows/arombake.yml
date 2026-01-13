@@ -8,5 +8,9 @@ jobs:
   mochi:
     runs-on: ubuntu-latest
     steps:
-        - name: "dubai mochi"
-          run: echo "두바이 모찌빵"
+      - name: "dubai mochi"
+        run: echo "두바이 모찌빵"
+      - name: "sweet potato"
+        run: echo "고구마 모찝아 왜 사먹음?"
+      - name: "egg tart"
+        run: echo "에그타르트"
