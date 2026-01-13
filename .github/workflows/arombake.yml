@@ -1,0 +1,12 @@
+name: Arombake
+
+on:
+    push:
+        branches: [master]
+
+jobs:
+  mochi:
+    runs-on: ubuntu-latest
+    steps:
+        - name: "dubai mochi"
+          run: echo "두바이 모찌빵"
