@@ -14,3 +14,12 @@ jobs:
         run: echo "고구마 모찝아 왜 사먹음?"
       - name: "egg tart"
         run: echo "에그타르트"
+  gelato:
+    runs-on: ubuntu-latest
+    steps:
+      - name: "라이스 젤라또"
+        run: echo "좋아해요?"
+      - name: "딸기 젤라또"
+        run: echo "가 사실 제일 맛있음"
+      - name: "탱크보이 젤라또"
+        run: echo "만들어주세요 ~!"
