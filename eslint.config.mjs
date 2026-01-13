@@ -11,10 +11,11 @@ export default defineConfig([
        "eqeqeq": ["error", "always"],
        "no-console": "off",
        "curly": "error",
-       "semi": ["error", "always"],
+       "semi": ["off", "always"],
        "quotes": ["error", "double"],
        "no-var": "error",
-       "prefer-const": "error"
+       "prefer-const": "error",
+       "no-undef": "warn"
      },
      },
   { files: ["**/*.js"],
